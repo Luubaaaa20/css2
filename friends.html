@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <style>
+        table{
+            width: 100%;
+        }
+        .last-element{
+            text-align: right;
+        }
+        .title-of-table{
+            text-align: center;
+            background-color: green;
+            color: #FFFF00;
+            font-style: bold;
+        }
         .tr_1{
             background-color: gray;
         }
         table, th, tr, td{
             border: 1px solid;
         }
-        h1, h2, caption{
+        h1{
             text-align: center;
+            font-size: 22px;
+        }
+        h2, caption{
+            text-align: center;
+        }
+        .back_to_index{
+            font-style: italic;
         }
     </style>
 </head>
 <body>
     <h1>Друзі Турчин Любов Любомирівни</h1>
-    <a href="index.html">Назад на головну</a>
+    <a class='back_to_index' href="index.html">Назад на головну</a>
     <h2>Мої друзі</h2>
     <table>
         <caption>Мої друзі</caption>
-        <tr>
+          <tr class="title-of-table">
             <th>Прізвище</th>
             <th>Ім’я</th>
             <th>Дата народження</th>
@@ -35,28 +54,28 @@
             <td>Тетяна</td>
             <td>16 січня 2005</td>
             <td>м. Долина</td>
-            <td>+380 68 1234 243</td>
+            <td class="last-element"></td>>+380 68 1234 243</td>
         </tr>
         <tr class="tr_2">
             <td>Кравців</td>
             <td>Ангеліна</td>
             <td>30 липня 2005</td>
             <td>м. Долина</td>
-            <td>+380 68 5235 123</td>
+            <td class="last-element"></td>>+380 68 5235 123</td>
         </tr>
         <tr class="tr_1">
             <td>Сенів</td>
             <td>Світлана</td>
             <td>14 лютого 2005</td>
             <td>м. Долина</td>
-            <td>+380 68 1631 516</td>
+            <td class="last-element"></td>>+380 68 1631 516</td>
         </tr>
         <tr class="tr_2">
             <td>Голована</td>
             <td>Марія</td>
             <td>12 липня 2005</td>
             <td>м. Долина</td>
-            <td>+380 68 2624 945</td>
+            <td class="last-element"></td>>+380 68 2624 945</td>
         </tr>
     </table>
 </body>
